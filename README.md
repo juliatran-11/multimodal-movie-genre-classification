@@ -1,6 +1,6 @@
 # Multimodal Movie Genre Classification
 
-**Multi-Modal Data Analysis – Project 2.2**
+**Multi-Modal Data Analysis - Project 2.2**
 
 ## 1. Project Overview
 
@@ -22,7 +22,7 @@ I also examined class imbalance, training behaviour, per-genre performance and s
 
 I used the [Simplified MM-IMDb dataset](https://www.kaggle.com/datasets/javierurea/simplified-mm-imdb) from Kaggle.
 
-The dataset contains 25,959 movie records. Each record includes a movie ID, a plot summary, a poster image and a multi-label genre vector.
+The dataset contains 25959 movie records. Each record includes a movie ID, a plot summary, a poster image and a multi-label genre vector.
 
 The dataset is divided into three sets:
 
@@ -116,11 +116,11 @@ The main libraries used are:
 
 ### Step 3: Open the notebook
 
-Download this repository and open `Project 2.2.ipynb` using Jupyter Notebook or JupyterLab.
+Download this repository and open `Project 2.2.ipynb` using Jupyter Notebook
 
 ### Step 4: Set up the dataset paths
 
-Place the dataset files in the notebook's working directory, or update the paths in the data-loading cells to match the location of the downloaded files.
+Place the dataset files in the notebook's working directory or update the paths in the data-loading cells to match the location of the downloaded files.
 
 The notebook reads the movie information from `data.npy` and the poster images from `images.npz`.
 
@@ -130,14 +130,14 @@ Run the notebook cells in order, starting with data loading and preprocessing.
 
 The main stages are:
 
-1. Inspect the dataset and check data quality.
-2. Create the training, validation and test splits.
-3. Preprocess the plot summaries and poster images.
+1. Inspect the dataset and check data quality
+2. Create the training, validation and test splits
+3. Preprocess the plot summaries and poster images
 4. Extract and save DistilBERT and CLIP features.
-5. Train the Text-only and Image-only classifiers.
-6. Train and evaluate the Early Fusion model.
-7. Evaluate Equal-Weight and Tuned Late Fusion.
-8. Compare the results and analyse prediction errors.
+5. Train the Text-only and Image-only classifiers
+6. Train and evaluate the Early Fusion model
+7. Evaluate Equal-Weight and Tuned Late Fusion
+8. Compare the results and analyse prediction errors
 
 The first execution may take longer because the pretrained models need to be downloaded and features must be extracted.
 

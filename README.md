@@ -6,7 +6,7 @@
 
 This project focuses on predicting movie genres using both plot summaries and poster images. Since one movie can belong to more than one genre, I treat this as a multi-label classification problem with 23 possible genres.
 
-The main goal is to compare how well text and image data perform separately and whether combining the two modalities can improve classification results.
+The main goal is to compare how well text and image data perform separately and whether combining the two modalities can improve classification results
 
 I implemented and compared five approaches:
 

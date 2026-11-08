@@ -28,9 +28,9 @@ The dataset is divided into three sets:
 
 | Dataset | Number of movies |
 |---|---:|
-| Training | 15,581 |
-| Validation | 2,595 |
-| Test | 7,783 |
+| Training | 15581 |
+| Validation | 2595 |
+| Test | 7783 |
 
 Before splitting the data, I checked for missing values, class imbalance and duplicated plot summaries and poster images. Records connected through exact duplicates were kept in the same split to reduce data leakage.
 
